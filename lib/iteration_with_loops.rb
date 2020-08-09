@@ -6,8 +6,8 @@ def find_even_values(src)
       if src[row_i][element_i].even?
         p src[row_i][element_i]
       end
-      element_index += 1
+      element_i += 1
     end
-    row_index += 1
+    row_i += 1
   end
 end
